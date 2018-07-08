@@ -34,8 +34,3 @@ set /P CommandVar=Type an adress you wish to ping:
 ping -t %CommandVar%
 color 07
 goto start 
-
-:3 
-echo Rofl
-pause 
-goto start
