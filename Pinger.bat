@@ -1,5 +1,5 @@
 @echo off 
-title Pinger
+title Ping
 :start
 cls 
 echo. 
@@ -33,4 +33,4 @@ color 03
 set /P CommandVar=Type an adress you wish to ping:  
 ping -t %CommandVar%
 color 07
-goto start 
+goto start
